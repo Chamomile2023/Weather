@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.main__hero{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 15px;
+}
+.main__body{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(1, 1, 3, 0.5);
+    border-radius: 10px;
+    position: relative;
+}
+ input{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 8px 100px 8px 20px;
+    color: white;
+    background-color: rgba(5, 5, 5, 0.5);
+    margin: 25px 15px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 35px;
+    left: 285px;
+    color: white;
+}
+.main--title{
+    color: white;
+    margin: 0px 25px 5px;
+}.main--parag{
+    color: white;
+    margin: 0px 25px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.main--span{
+    color: white;
+    margin: 0px 25px 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.main__speed{
+    color: white;
+    margin: 0px 25px 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.fa-temperature-half{
+    margin-right: 10px;
+}
+.fa-earth-asia{
+  margin-right: 10px;  
+}
+.fa-sun-cloud{
+    position: absolute;
+    z-index: 100;
+}
+.main__img{
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    width: 200px;
+    height: 200px;
+}
